@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>Landing Page</title>
+  <style>
+    body{margin:0px;font-size:18px;}
+header{background-image : url("python_back.jpg");
+  background-size:cover;height:200px;
+  background-repeat: no-repeat;
+  color:white;
+  text-align:center;
+  padding:10%;
+  padding-left:18%;
+  background-attachment:scroll;
+}
+.head{width:800px;height:auto;}
+h1{font-weight:bold;font-size:40px;}
+.read_more{width:auto;height:auto;background-color:black;padding:20px;color:white;font-weight:bold;font-size:20px;text-decoration: none;border:1px solid green;}
+.read_more:hover{width:auto;height:auto;background-color:white;padding:20px;color:black;font-weight:bold;font-size:20px;text-decoration: none;}
+.web_dev{text-align:center;background-color: #E0E1E4;width:auto;height:auto;margin-top:-33px;padding:5px;padding-bottom:30px;}
+.column{columns: 2;column-gap: 2em;padding-top:10px;padding-left:100px;padding-right:100px;font-size:18px;}
+#main{columns:3; column-gap:2em;background-color:background-color: #923cb5;
+background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);padding:30px;padding-left:80px;padding-right:200px;}
+img{width:300px;height:200px;}
+.box{margin:20px;width:300px;height:430px;background-color:#E0E1E4;text-align:center;}
+.content{padding:5px;padding-top:20px;}
+li{list-style-type: none;}
+.teach{text-align:center; width:auto:height:auto;background-color:#E0E1E4;margin-top:-22px;padding:40px;}
+.about{color: #fff;columns:2;column-gap:0em;text-align:center;}
+.contact1{width:auto;height:300px;;background-color: #2690d4;margin-top:0px;padding:30px;padding-left:80px;padding-right:80px;}
+.contact2{background-color:grey;width:auto;height:240px;;margin-top:-60px;padding:30px;padding-left:80px;padding-right:80px;}
+.foot{background-color:black;color:#E0E1E4;}
+.keshabh{text-decoration: none;color:blue;}
+.foot{ padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+  columns:2;}
+
+</style>
+</head>
+<body>
+<header>
+  <div class="head">
+    <h1>Welcome to Python Web Developement</h1>
+    <p>Python offers many frameworks from which to choose from including bottle.py, Flask, CherryPy, Pyramid, Django and web2py. ... These frameworks have been used to power some of the world's most popular sites such as Spotify, Mozilla, Reddit, the Washington Post and Yelp.</p>
+    <br/>
+    <a href="#main" class="read_more">Read more</a>
+    </div>
+  </header>
+
+  <!--about web developement section -->
+  <section class="web_dev">
+    <h1 style="font-size:30px;">Web Developement</h1>
+    <p class="column" style="text-align:justify;">In the past few years, Python has exploded in popularity. The programming language has surpassed Java in popularity,
+       but, for many, this is no surprise. With the rise in machine learning, data analysis, and web application development,
+        many developers utilize Python for its powerful and abundant libraries, easy-to-learn syntax, and portability.
+   Without a doubt, it’s a great time to be a Python developer. Today, you will learn how Python is utilized in web development.</p>
+   </section>
+
+   <!-- section for 3 columns describing frameworks -->
+   <section id="main">
+    <ul>
+      <!--django-->
+      <li>
+      <div class="box" style="margin-top:-15px;">
+        <img src="django.png" alt="img of django">
+        <div class="content">
+          <p>
+           Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+           Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus
+           on writing your app without needing to reinvent the wheel.</p>
+        </div>
+      </div>
+      </li>
+
+      <!--web2py-->
+      <li>
+        <div class="box">
+          <img src="web2py.png" alt="img of web2py">
+          <div class="content">
+             <p>
+              Web2py allows web developers to program dynamic web content using Python. Web2py is designed to help reduce tedious
+              web development tasks, such as developing web forms from scratch, although a web developer may build a form
+              from scratch if required.</p>
+          </div>
+        </div>
+      </li>
+
+      <!--flask-->
+      <li>
+        <div class="box">
+          <img src="flask.png" alt="img of flask">
+          <div class="content">
+            <p>Flask is an API of Python that allows us to build up web-applications. It was developed by Armin Ronacher. Flask's framework is more explicit than Django's
+              framework and is also easier to learn because it has less base code to implement a simple web-Application.</p>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+   </section>
+
+  <!-- we will teach you -->
+  <section class="teach">
+  <h1 style="font-size:30px;">We handle all of your digital needs</h1>
+  <p>Have You Made Up Your Mind, Then Come And Master These Python Framework With Us.</p>
+  <p>Together We Will Make Cool Websites</p>
+  </section>
+
+  <!--contact us and about -->
+  <section class="about">
+    <div class="contact1">
+        <h1 style="font-size:30px;">Contact Us</h1>
+        <p>Just send us your questions or concerns by starting a new case and we will give you the help you need.</p>
+        <p>We are always there for you :) </p>
+        <p>+91 9759367902</p>
+    </div>
+
+    <div class="contact2">
+       <h1 style="font-size:30px;">About Our Company</h1>
+       <p>We believe there is a better way to learn something. A more valuable, less invasive way where students are enjoying things. We're obssesively passionate about
+       it, and our mission is to help people achieve it.</p>
+    </div>
+  </section>
+
+  <!--footer-->
+  <footer class="foot">
+    <div>
+      Keshabh Web Solutions
+    </div>
+    <div>
+      Project By <a href="" class="keshabh">Keshabh Kedia</a>
+    </div>
+  </footer>
+
+</body>
+</html>

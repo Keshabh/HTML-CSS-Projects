@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dominos</title>
+  </head>
+  <style>
+    body{background-image:url("Diamond-Sunset.svg");margin:50px;}
+    .menu_list{columns:5;column-gap:1em;list-style-type:none;margin-left:-40px;font-size:20px;font-weight:bold;font-family:Helvetica;}
+    .list{background-color:gold;width:auto;height:auto;padding:13px;text-align:center;}
+    .block{width:cover;height:420px;margin-top:35px;margin-bottom:10px;}
+    .pizza{width:750px; height:400px;background-image:url(pizza.jpg);background-size:750px 400px; background-repeat:no-repeat;float:left;border:2px solid gold;}
+    .price1{background-color:gold;float:right;width:350px;height:192px;margin-bottom:20px;}
+    .price2{background-color:gold;float:right;width:350px;height:192px;text-align:center;}
+    .boxes{list-style-type:none;width:cover;height: auto;columns:4;column-gap:1em;margin-top:-3px;padding-left: 0px;padding-right: 0px;}
+    .box{width:270px;height:200px;background-color:	#F5F5F5;text-align: center;}
+    .box p{color:grey;font-weight:bold;padding-left: 15px;padding-right: 15px;}
+     A {text-decoration: none;color:black;}
+     .parcel{background-color: #F5F5F5;width:cover;height:400px;margin-top:-30px;}
+     .image{width:400px;height:300px;padding: 20px;padding-left: 50px;padding-top: 50px;}
+     .info{float:right;position:relative;top:120px;left:-170px;}
+     .gallery{columns:5;column-gap: 1em;}
+     .gallery img{width:215px;height:220px;column-gap:1em;margin-bottom: 13px;}
+     .icon{font-size:50px;text-align:center;margin-bottom: -15px;}
+     button{background-color: gold; border: 0px;width:130px;height:35px;}
+     .info h2{font-family:Helvetica;font-size: 25px;font-weight: bold;}
+     .info p{font-family:cursive;font-size: 16px;font-weight: bold;}
+     .grams {
+  text-align:center;
+  font-family:Impact;
+  font-weight: normal;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 20px 0;
+  grid-gap: 20px;
+}
+.grams:after,.grams:before {
+  content: " ";
+  display: block;
+  background-image: linear-gradient(red, yellow, green);
+}
+
+  </style>
+  <body>
+    <!-- list of div tag of items-->
+    <div class="menu">
+      <ul class="menu_list"5>
+        <li class="list"><a href="">PIZZAS</a></li>
+        <li class="list"><a href="">SIDE ORDERS</a></li>
+        <li class="list"><a href="">BEVERAGES</a></li>
+        <li class="list"><a href="">BURGER PIZZA</a></li>
+        <li class="list"><a href="">DESSERT</a></li>
+      </ul>
+    </div>
+
+    <!-- pizza pic with price -->
+    <div class="block">
+      <div class="pizza">
+
+      </div>
+      <div class="price1">
+          <img src="logo.jpg " style="width:350px;height:200px;" alt="dominos logo">
+      </div>
+      <div class="price2">
+          <p style="font-size:45px;margin-bottom:-10px;">₹ 699</p>
+          <p style="font-size:18px;font-family:sans-serif;font-weight:bold;">Veg Extravaganza</p>
+      </div>
+    </div>
+    <!--div tags-->
+    <div >
+      <ul class="boxes">
+      <li style="margin-top:-50px;"><div class="box">
+        <p class="icon">🌮</p>
+        <h3>Tacos</h3>
+        <p>A crispy flaky wrap filled with Mexican Arancini Bean Patty rolled over a creamy Harissa Sauce.</p>
+      </div>
+      </li>
+      <li><div class="box">
+        <p class="icon">🥖</p>
+        <h3>Garlic Bread</h3>
+        <p>The endearing tang of garlic in breadstics baked to perfection.</p>
+      </div></li>
+      <li><div class="box">
+        <p class="icon">🍔</p>
+        <h3>Burger Pizza</h3>
+        <p>The good just got better! Treat yourself to the premium taste of the Burger Pizza.</p>
+      </div></li>
+      <li><div class="box">
+        <p class="icon">🥤</p>
+        <h3>Beverages</h3>
+        <p>Fresh and Cold drinks are always mood refreshing.</p>
+      </div></li>
+    </ul>
+    </div>
+
+    <!--another div block-->
+    <section class="parcel">
+      <img src="bread.jpg" class="image" alt="picture of veg zingy parcel">
+      <div class="info">
+         <h2>Featured Garlic Bread</h2>
+         <p>Freshly Baked Garlic Bread stuffed with mozzarella cheese</p>
+         <p>sweet corns & tangy and spicy jalapeños</p>
+         <button>Learn More →</button>
+      </section>
+    </div>
+
+    <!--random pics -->
+    <h2 class="grams">Instant Grams</h2>
+    <section class="gallery">
+      <img src="https://source.unsplash.com/random/201x201" alt="">
+      <img src="https://source.unsplash.com/random/202x202" alt="">
+      <img src="https://source.unsplash.com/random/203x203" alt="">
+      <img src="https://source.unsplash.com/random/204x204" alt="">
+      <img src="https://source.unsplash.com/random/205x205" alt="">
+      <img src="https://source.unsplash.com/random/206x206" alt="">
+      <img src="https://source.unsplash.com/random/207x207" alt="">
+      <img src="https://source.unsplash.com/random/207x208" alt="">
+      <img src="https://source.unsplash.com/random/207x209" alt="">
+      <img src="https://source.unsplash.com/random/207x210" alt="">
+    </section>
+  </body>
+</html>

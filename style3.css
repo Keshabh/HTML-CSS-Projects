@@ -1,0 +1,12 @@
+body{background-color: lightblue;}
+h1{text-align:center;font-size:45px;margin-top:30px;}
+.main{background-color: white;width:800px;max-height:1000px;overflow: hidden;border-radius: 10px;margin:auto;}
+p{font-style: bold;font-size: 20px;text-align: center;padding-top:35px;}
+#key{width:46%;float:left;text-align: right;height: auto;padding: 5px;}
+#val{width:45%;float: right;text-align: left;height: auto;padding: 5px;padding-right: 43PX;}
+.box{height:30px;width:250px;border-radius:2px;border:ridge;}
+.button{width:80px;height:40px;color:black;border-color: #6ba2ce;background-color: white;border: 1px solid;border-radius: 5px;margin-left: 45%; margin-top: 25px;font-weight: bold;font-size: 15px;}
+.button:hover{width:100px;height:50px;color:white;background-color: #6ba2ce;border: 0px solid;border-radius: 5px;margin-left: 45%; margin-top: 25px;font-weight: bold;font-size: 15px;}
+.comp{
+max-height: 200px;overflow: hidden;margin-top: 30px;
+}
